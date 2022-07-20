@@ -20,24 +20,24 @@
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background01" translatesAutoresizingMaskIntoConstraints="NO" id="XSM-wb-fc6">
-                                        <rect key="frame" x="0.0" y="-140" width="390" height="464.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="-140" width="390" height="492"/>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mfn-YL-WWK" customClass="CustomView" customModule="UIKitForDesignCode" customModuleProvider="target">
-                                        <rect key="frame" x="16" y="20" width="358" height="350"/>
+                                        <rect key="frame" x="16" y="20" width="358" height="362.33333333333331"/>
                                         <subviews>
                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zzf-gY-rDj" customClass="CustomBlurView" customModule="UIKitForDesignCode" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="358" height="350"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="358" height="362.33333333333331"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="dVg-9a-Wbz">
-                                                    <rect key="frame" x="0.0" y="0.0" width="358" height="350"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="358" height="362"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Illustration 2" translatesAutoresizingMaskIntoConstraints="NO" id="Kax-h5-BlX">
                                                             <rect key="frame" x="0.0" y="0.0" width="358" height="217"/>
                                                         </imageView>
                                                         <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a07-Gi-avf">
-                                                            <rect key="frame" x="0.0" y="217" width="358" height="133"/>
+                                                            <rect key="frame" x="0.0" y="217" width="358" height="145.33333333333337"/>
                                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="QfZ-qE-yeA">
-                                                                <rect key="frame" x="0.0" y="0.0" width="358" height="133"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="358" height="145"/>
                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SwiftUI for iOS 15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbH-56-127">
@@ -69,7 +69,7 @@
                                                                     <constraint firstItem="zLg-25-Or8" firstAttribute="leading" secondItem="QfZ-qE-yeA" secondAttribute="leading" constant="20" id="YcS-ia-T76"/>
                                                                     <constraint firstItem="zLg-25-Or8" firstAttribute="top" secondItem="lbH-56-127" secondAttribute="bottom" constant="8" id="dWQ-S2-Lad"/>
                                                                     <constraint firstAttribute="trailing" secondItem="lbH-56-127" secondAttribute="trailing" constant="20" id="j39-lx-IjO"/>
-                                                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="upC-tq-nod" secondAttribute="bottom" constant="16" id="lFt-ZF-ivI"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="upC-tq-nod" secondAttribute="bottom" constant="40" id="lFt-ZF-ivI"/>
                                                                 </constraints>
                                                             </view>
                                                             <vibrancyEffect>
@@ -97,7 +97,8 @@
                                         </subviews>
                                         <color key="backgroundColor" name="BlurBackground"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="350" id="IP0-Xn-8gG"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="350" id="IP0-Xn-8gG"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="500" id="REY-md-gk4"/>
                                             <constraint firstItem="zzf-gY-rDj" firstAttribute="top" secondItem="Mfn-YL-WWK" secondAttribute="top" id="ZP8-w1-PkK"/>
                                             <constraint firstAttribute="bottom" secondItem="zzf-gY-rDj" secondAttribute="bottom" id="etN-xQ-BBg"/>
                                             <constraint firstItem="zzf-gY-rDj" firstAttribute="leading" secondItem="Mfn-YL-WWK" secondAttribute="leading" id="po5-Ql-QYt"/>
@@ -129,9 +130,11 @@
                                     </view>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="Mfn-YL-WWK" firstAttribute="centerX" secondItem="VEo-R1-Jic" secondAttribute="centerX" id="ILf-zA-eh2"/>
                                     <constraint firstItem="XSM-wb-fc6" firstAttribute="trailing" secondItem="fAV-Qe-4sR" secondAttribute="trailing" id="TdA-LQ-GBm"/>
-                                    <constraint firstItem="Mfn-YL-WWK" firstAttribute="leading" secondItem="fAV-Qe-4sR" secondAttribute="leading" constant="16" id="aze-gy-oCj"/>
-                                    <constraint firstItem="fAV-Qe-4sR" firstAttribute="trailing" secondItem="Mfn-YL-WWK" secondAttribute="trailing" constant="16" id="lP8-UC-iZM"/>
+                                    <constraint firstItem="Mfn-YL-WWK" firstAttribute="leading" secondItem="fAV-Qe-4sR" secondAttribute="leading" priority="750" constant="16" id="aze-gy-oCj"/>
+                                    <constraint firstAttribute="bottom" secondItem="Mfn-YL-WWK" secondAttribute="bottom" constant="40" id="dHE-nr-Aqp"/>
+                                    <constraint firstItem="fAV-Qe-4sR" firstAttribute="trailing" secondItem="Mfn-YL-WWK" secondAttribute="trailing" priority="750" constant="16" id="lP8-UC-iZM"/>
                                     <constraint firstItem="XSM-wb-fc6" firstAttribute="top" secondItem="fAV-Qe-4sR" secondAttribute="top" id="mYv-j0-nC2"/>
                                     <constraint firstItem="XSM-wb-fc6" firstAttribute="leading" secondItem="fAV-Qe-4sR" secondAttribute="leading" id="r6s-w6-sZn"/>
                                     <constraint firstItem="Mfn-YL-WWK" firstAttribute="top" secondItem="zEn-Do-4hW" secondAttribute="top" constant="20" id="xSA-VO-FHR"/>
