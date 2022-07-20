@@ -13,8 +13,8 @@ class HandbookCollectionViewCell: UICollectionViewCell {
     @IBOutlet var logo: CustomImageView!
     @IBOutlet var progressBar: UIProgressView!
     @IBOutlet var titleLabel: UILabel!
-    @IBOutlet var subtitleLabel: UILabel!
     @IBOutlet var descriptionLabel: UILabel!
+    @IBOutlet var subtitleLabel: UILabel!
     
     let gradient = CAGradientLayer()
 

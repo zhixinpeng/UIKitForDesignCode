@@ -8,9 +8,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet var handbookCollectionView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        handbookCollectionView.delegate = self
+        handbookCollectionView.dataSource = self
     }
 }
 
