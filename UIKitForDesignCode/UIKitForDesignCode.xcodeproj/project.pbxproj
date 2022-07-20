@@ -10,6 +10,7 @@
 		34203BAF2888001100BD97A8 /* CoursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34203BAE2888001100BD97A8 /* CoursesTableViewCell.swift */; };
 		34203BB128880CEF00BD97A8 /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34203BB028880CEF00BD97A8 /* CoursesViewController.swift */; };
 		34203BB328880F5900BD97A8 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34203BB228880F5900BD97A8 /* Section.swift */; };
+		34203BB528883CF200BD97A8 /* SectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34203BB428883CF200BD97A8 /* SectionTableViewCell.swift */; };
 		3490406128858EC30006AB74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3490406028858EC30006AB74 /* AppDelegate.swift */; };
 		3490406328858EC30006AB74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3490406228858EC30006AB74 /* SceneDelegate.swift */; };
 		3490406528858EC30006AB74 /* FeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3490406428858EC30006AB74 /* FeatureViewController.swift */; };
@@ -28,6 +29,7 @@
 		34203BAE2888001100BD97A8 /* CoursesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesTableViewCell.swift; sourceTree = "<group>"; };
 		34203BB028880CEF00BD97A8 /* CoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesViewController.swift; sourceTree = "<group>"; };
 		34203BB228880F5900BD97A8 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		34203BB428883CF200BD97A8 /* SectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTableViewCell.swift; sourceTree = "<group>"; };
 		3490405D28858EC30006AB74 /* UIKitForDesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitForDesignCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3490406028858EC30006AB74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3490406228858EC30006AB74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			children = (
 				3490407D2886E52E0006AB74 /* HandbookCollectionViewCell.swift */,
 				34203BAE2888001100BD97A8 /* CoursesTableViewCell.swift */,
+				34203BB428883CF200BD97A8 /* SectionTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				34EE05F72887E0AB007B265E /* Course.swift in Sources */,
 				3490407E2886E52E0006AB74 /* HandbookCollectionViewCell.swift in Sources */,
 				34203BB128880CEF00BD97A8 /* CoursesViewController.swift in Sources */,
+				34203BB528883CF200BD97A8 /* SectionTableViewCell.swift in Sources */,
 				3490406528858EC30006AB74 /* FeatureViewController.swift in Sources */,
 				3490407A28869ABA0006AB74 /* CustomUIView.swift in Sources */,
 				3490407B28869ABA0006AB74 /* Font.swift in Sources */,
