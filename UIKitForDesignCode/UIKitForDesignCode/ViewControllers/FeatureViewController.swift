@@ -7,29 +7,31 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FeatureViewController: UIViewController {
     @IBOutlet var handbookCollectionView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         handbookCollectionView.delegate = self
         handbookCollectionView.dataSource = self
+        handbookCollectionView.layer.masksToBounds = false
     }
 }
 
-extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+extension FeatureViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 3
+        return handbooks.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CourseCell", for: indexPath) as! HandbookCollectionViewCell
-        cell.titleLabel.text = "SwiftUI Handbook"
-        cell.subtitleLabel.text = "20 HOURS - 30 SECTIONS"
-        cell.descriptionLabel.text = "Learn about all the basics of SwiftUI"
-        cell.gradient.colors = [UIColor.red.cgColor, UIColor.systemPink.cgColor]
-        cell.logo.image = UIImage(named: "Logo React")
-        cell.banner.image = UIImage(named: "Illustration 2")
+        let handbook = handbooks[indexPath.item]
+        cell.titleLabel.text = handbook.courseTitle
+        cell.subtitleLabel.text = handbook.courseSubtitle
+        cell.descriptionLabel.text = handbook.courseDescription
+        cell.gradient.colors = handbook.courseGradient
+        cell.logo.image = handbook.courseIcon
+        cell.banner.image = handbook.courseBanner
         
         return cell
     }
