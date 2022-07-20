@@ -13,6 +13,11 @@
 		3490406828858EC30006AB74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3490406628858EC30006AB74 /* Main.storyboard */; };
 		3490406A28858EC60006AB74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3490406928858EC60006AB74 /* Assets.xcassets */; };
 		3490406D28858EC60006AB74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3490406B28858EC60006AB74 /* LaunchScreen.storyboard */; };
+		3490407928869ABA0006AB74 /* CustomBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3490407528869ABA0006AB74 /* CustomBlurView.swift */; };
+		3490407A28869ABA0006AB74 /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3490407628869ABA0006AB74 /* CustomUIView.swift */; };
+		3490407B28869ABA0006AB74 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3490407728869ABA0006AB74 /* Font.swift */; };
+		3490407C28869ABA0006AB74 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3490407828869ABA0006AB74 /* CustomImageView.swift */; };
+		3490407E2886E52E0006AB74 /* HandbookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3490407D2886E52E0006AB74 /* HandbookCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		3490406928858EC60006AB74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3490406C28858EC60006AB74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3490406E28858EC60006AB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3490407528869ABA0006AB74 /* CustomBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBlurView.swift; sourceTree = "<group>"; };
+		3490407628869ABA0006AB74 /* CustomUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
+		3490407728869ABA0006AB74 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		3490407828869ABA0006AB74 /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		3490407D2886E52E0006AB74 /* HandbookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandbookCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,28 @@
 		3490405F28858EC30006AB74 /* UIKitForDesignCode */ = {
 			isa = PBXGroup;
 			children = (
+				3490407428869ABA0006AB74 /* Helpers */,
 				3490406028858EC30006AB74 /* AppDelegate.swift */,
 				3490406228858EC30006AB74 /* SceneDelegate.swift */,
 				3490406428858EC30006AB74 /* ViewController.swift */,
 				3490406628858EC30006AB74 /* Main.storyboard */,
+				3490407D2886E52E0006AB74 /* HandbookCollectionViewCell.swift */,
 				3490406928858EC60006AB74 /* Assets.xcassets */,
 				3490406B28858EC60006AB74 /* LaunchScreen.storyboard */,
 				3490406E28858EC60006AB74 /* Info.plist */,
 			);
 			path = UIKitForDesignCode;
+			sourceTree = "<group>";
+		};
+		3490407428869ABA0006AB74 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3490407528869ABA0006AB74 /* CustomBlurView.swift */,
+				3490407628869ABA0006AB74 /* CustomUIView.swift */,
+				3490407728869ABA0006AB74 /* Font.swift */,
+				3490407828869ABA0006AB74 /* CustomImageView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3490407E2886E52E0006AB74 /* HandbookCollectionViewCell.swift in Sources */,
 				3490406528858EC30006AB74 /* ViewController.swift in Sources */,
+				3490407A28869ABA0006AB74 /* CustomUIView.swift in Sources */,
+				3490407B28869ABA0006AB74 /* Font.swift in Sources */,
+				3490407C28869ABA0006AB74 /* CustomImageView.swift in Sources */,
 				3490406128858EC30006AB74 /* AppDelegate.swift in Sources */,
+				3490407928869ABA0006AB74 /* CustomBlurView.swift in Sources */,
 				3490406328858EC30006AB74 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
