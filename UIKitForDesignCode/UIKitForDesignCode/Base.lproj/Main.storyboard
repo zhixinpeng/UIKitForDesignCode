@@ -933,10 +933,10 @@
             </objects>
             <point key="canvasLocation" x="961" y="-995"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Custom Tab Bar View Controller-->
         <scene sceneID="fP5-AR-Rte">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="7Fs-o2-B8F" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="7Fs-o2-B8F" customClass="CustomTabBarViewController" customModule="UIKitForDesignCode" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="f19-GD-dPe">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
