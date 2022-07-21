@@ -6,9 +6,15 @@
 //
 
 import UIKit
+import Combine
 
 class ExploreViewController: UIViewController {
     @IBOutlet var sessionsCollectionView: UICollectionView!
+    @IBOutlet var topicTableView: UITableView!
+    @IBOutlet var tableViewHeight: NSLayoutConstraint!
+    @IBOutlet var popularCollectionView: UICollectionView!
+    
+    private var tokens: Set<AnyCancellable> = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,23 +22,72 @@ class ExploreViewController: UIViewController {
         sessionsCollectionView.delegate = self
         sessionsCollectionView.dataSource = self
         sessionsCollectionView.layer.masksToBounds = false
+        
+        topicTableView.delegate = self
+        topicTableView.dataSource = self
+        topicTableView.layer.masksToBounds = false
+        
+        topicTableView.publisher(for: \.contentSize)
+            .sink { contentSize in
+                self.tableViewHeight.constant = contentSize.height
+            }
+            .store(in: &tokens)
+        
+        popularCollectionView.delegate = self
+        popularCollectionView.dataSource = self
+        popularCollectionView.layer.masksToBounds = false
     }
 }
 
 extension ExploreViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return sections.count
+        return collectionView == sessionsCollectionView ? sections.count : handbooks.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SectionCell", for: indexPath) as! SectionsCollectionViewCell
-        let section = sections[indexPath.item]
+        if collectionView == sessionsCollectionView {
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SectionCell", for: indexPath) as! SectionsCollectionViewCell
+            let section = sections[indexPath.item]
+            
+            cell.titleLabel.text = section.sectionTitle
+            cell.subtitleLabel.text = section.sectionSubtitle
+            cell.logo.image = section.sectionIcon
+            cell.banner.image = section.sectionBanner
+            
+            return cell
+        } else {
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CourseCell", for: indexPath) as! HandbookCollectionViewCell
+            let handbook = handbooks[indexPath.item]
+            
+            cell.titleLabel.text = handbook.courseTitle
+            cell.subtitleLabel.text = handbook.courseSubtitle
+            cell.descriptionLabel.text = handbook.courseDescription
+            cell.gradient.colors = handbook.courseGradient
+            cell.logo.image = handbook.courseIcon
+            cell.banner.image = handbook.courseBanner
+            
+            return cell
+        }
+    }
+}
+
+extension ExploreViewController: UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return topics.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "TopicCell", for: indexPath) as! TopicTableViewCell
+        let topic = topics[indexPath.row]
         
-        cell.titleLabel.text = section.sectionTitle
-        cell.subtitleLabel.text = section.sectionSubtitle
-        cell.logo.image = section.sectionIcon
-        cell.banner.image = section.sectionBanner
+        cell.topicLogo.image = UIImage(systemName: topic.topicSymbol)
+        cell.topicLabel.text = topic.topicName
         
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
 }

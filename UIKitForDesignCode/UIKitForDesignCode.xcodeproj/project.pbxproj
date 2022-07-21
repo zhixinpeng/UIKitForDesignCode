@@ -25,6 +25,8 @@
 		34EDBDE528893A20005C6F1A /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDBDE428893A20005C6F1A /* CustomTabBarViewController.swift */; };
 		34EDBDE728894839005C6F1A /* SectionsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDBDE628894839005C6F1A /* SectionsCollectionViewCell.swift */; };
 		34EDBDE928894949005C6F1A /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDBDE828894949005C6F1A /* ExploreViewController.swift */; };
+		34EDBDEB288954D1005C6F1A /* TopicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDBDEA288954D1005C6F1A /* TopicTableViewCell.swift */; };
+		34EDBDED28895592005C6F1A /* Topics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDBDEC28895592005C6F1A /* Topics.swift */; };
 		34EE05F72887E0AB007B265E /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EE05F62887E0AB007B265E /* Course.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +51,8 @@
 		34EDBDE428893A20005C6F1A /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
 		34EDBDE628894839005C6F1A /* SectionsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsCollectionViewCell.swift; sourceTree = "<group>"; };
 		34EDBDE828894949005C6F1A /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		34EDBDEA288954D1005C6F1A /* TopicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicTableViewCell.swift; sourceTree = "<group>"; };
+		34EDBDEC28895592005C6F1A /* Topics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topics.swift; sourceTree = "<group>"; };
 		34EE05F62887E0AB007B265E /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +127,7 @@
 			children = (
 				34EE05F62887E0AB007B265E /* Course.swift */,
 				34203BB228880F5900BD97A8 /* Section.swift */,
+				34EDBDEC28895592005C6F1A /* Topics.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				3490407D2886E52E0006AB74 /* HandbookCollectionViewCell.swift */,
+				34EDBDEA288954D1005C6F1A /* TopicTableViewCell.swift */,
 				34203BAE2888001100BD97A8 /* CoursesTableViewCell.swift */,
 				34203BB428883CF200BD97A8 /* SectionTableViewCell.swift */,
 				34EDBDE628894839005C6F1A /* SectionsCollectionViewCell.swift */,
@@ -214,9 +220,11 @@
 				34203BB128880CEF00BD97A8 /* CoursesViewController.swift in Sources */,
 				34203BB528883CF200BD97A8 /* SectionTableViewCell.swift in Sources */,
 				34EDBDE928894949005C6F1A /* ExploreViewController.swift in Sources */,
+				34EDBDEB288954D1005C6F1A /* TopicTableViewCell.swift in Sources */,
 				34EDBDE528893A20005C6F1A /* CustomTabBarViewController.swift in Sources */,
 				3490406528858EC30006AB74 /* FeatureViewController.swift in Sources */,
 				3490407A28869ABA0006AB74 /* CustomUIView.swift in Sources */,
+				34EDBDED28895592005C6F1A /* Topics.swift in Sources */,
 				3490407B28869ABA0006AB74 /* Font.swift in Sources */,
 				3490407C28869ABA0006AB74 /* CustomImageView.swift in Sources */,
 				3490406128858EC30006AB74 /* AppDelegate.swift in Sources */,
