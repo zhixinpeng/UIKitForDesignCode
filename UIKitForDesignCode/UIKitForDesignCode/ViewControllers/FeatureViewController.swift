@@ -14,6 +14,12 @@ class FeatureViewController: UIViewController {
     @IBOutlet var tableViewHeight: NSLayoutConstraint!
     @IBOutlet var scrollView: UIScrollView!
     
+    @IBOutlet var featuredTitleLabel: UILabel!
+    @IBOutlet var infoLabel: UILabel!
+    @IBOutlet var previewLabel: UILabel!
+    @IBOutlet var handbooksLabel: UILabel!
+    @IBOutlet var coursesLabel: UILabel!
+    
     private var tokens: Set<AnyCancellable> = []
     
     override func viewDidLoad() {
@@ -33,6 +39,27 @@ class FeatureViewController: UIViewController {
             .store(in: &tokens)
         
         scrollView.delegate = self
+        
+        // Accessibility
+        featuredTitleLabel.maximumContentSizeCategory = .accessibilityExtraLarge
+        featuredTitleLabel.font = UIFont.preferredFont(for: .title1, weight: .bold)
+        featuredTitleLabel.adjustsFontForContentSizeCategory = true
+        
+        infoLabel.maximumContentSizeCategory = .accessibilityMedium
+        infoLabel.font = UIFont.preferredFont(for: .footnote, weight: .bold)
+        infoLabel.adjustsFontForContentSizeCategory = true
+        
+        previewLabel.maximumContentSizeCategory = .accessibilityMedium
+        previewLabel.font = UIFont.preferredFont(for: .footnote, weight: .regular)
+        previewLabel.adjustsFontForContentSizeCategory = true
+        
+        handbooksLabel.maximumContentSizeCategory = .accessibilityMedium
+        handbooksLabel.font = UIFont.preferredFont(for: .footnote, weight: .semibold)
+        handbooksLabel.adjustsFontForContentSizeCategory = true
+        
+        coursesLabel.maximumContentSizeCategory = .accessibilityMedium
+        coursesLabel.font = UIFont.preferredFont(for: .footnote, weight: .semibold)
+        coursesLabel.adjustsFontForContentSizeCategory = true
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

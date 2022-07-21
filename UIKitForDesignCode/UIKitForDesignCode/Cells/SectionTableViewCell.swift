@@ -15,6 +15,19 @@ class SectionTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        // Accessibility
+        titleLabel.adjustsFontForContentSizeCategory = true
+        titleLabel.maximumContentSizeCategory = .extraExtraLarge
+        titleLabel.font = UIFont.preferredFont(for: .headline, weight: .bold)
+        
+        subtitleLabel.adjustsFontForContentSizeCategory = true
+        subtitleLabel.maximumContentSizeCategory = .extraLarge
+        subtitleLabel.font = UIFont.preferredFont(for: .caption1, weight: .semibold)
+        
+        descriptionLabel.adjustsFontForContentSizeCategory = true
+        descriptionLabel.maximumContentSizeCategory = .extraLarge
+        descriptionLabel.font = UIFont.preferredFont(for: .caption1, weight: .regular)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
