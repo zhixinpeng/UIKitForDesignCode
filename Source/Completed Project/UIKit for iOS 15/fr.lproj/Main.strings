@@ -1,0 +1,173 @@
+/* Class = "UITabBarItem"; title = "Library"; ObjectID = "1bK-Pb-sIO"; */
+"1bK-Pb-sIO.title" = "Bibliothèque";
+
+/* Class = "UILabel"; text = "SwiftUI for iOS 15"; ObjectID = "2GI-wF-yD0"; */
+"2GI-wF-yD0.text" = "SwiftUI pour iOS 15";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "3X9-Lu-LvW"; */
+"3X9-Lu-LvW.text" = "Étiqueter";
+
+/* Class = "UILabel"; text = "Long preview description that is two lines long"; ObjectID = "3g5-Vx-Bpf"; */
+"3g5-Vx-Bpf.text" = "Longue description de l'aperçu qui fait deux lignes";
+
+/* Class = "UILabel"; text = "Long preview description that is two lines long"; ObjectID = "4EA-YD-3lM"; */
+"4EA-YD-3lM.text" = "Longue description de l'aperçu qui fait deux lignes";
+
+/* Class = "UILabel"; text = "Recent"; ObjectID = "4ch-Ak-Nct"; */
+"4ch-Ak-Nct.text" = "LES SUJETS";
+
+/* Class = "UILabel"; text = "TOPICS"; ObjectID = "6ha-fW-q4c"; */
+"6ha-fW-q4c.text" = "LES SUJETS";
+
+/* Class = "UILabel"; text = "20 SECTIONS - 3 HOURS"; ObjectID = "78r-eZ-uSI"; */
+"78r-eZ-uSI.text" = "20 SECTIONS - 3 HEURES";
+
+/* Class = "UILabel"; text = "Taught by Meng To and Stephanie Dipp"; ObjectID = "7qP-rP-2JJ"; */
+"7qP-rP-2JJ.text" = "Enseigné par Meng To et Stéphanie Dipp";
+
+/* Class = "UINavigationItem"; title = "Featured"; ObjectID = "8V9-Qr-fJ8"; */
+"8V9-Qr-fJ8.title" = "Mis en exergue";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "AXz-q1-f7J"; */
+"AXz-q1-f7J.text" = "Sous-titre";
+
+/* Class = "UILabel"; text = "Build an iOS app for iOS 15 with custom layouts, animations, and more!"; ObjectID = "Ebd-SI-tuU"; */
+"Ebd-SI-tuU.text" = "Créez une application iOS pour iOS 15 avec des mises en page personnalisées, des animations et plus encore !";
+
+/* Class = "UILabel"; text = "20 SECTIONS - 3 HOURS"; ObjectID = "GYm-Xi-b8e"; */
+"GYm-Xi-b8e.text" = "20 SECTIONS - 3 HEURES";
+
+/* Class = "UILabel"; text = "Learn about the formatted(date:time:) method and AsyncImage as told by us in class"; ObjectID = "H3G-rE-qVB"; */
+"H3G-rE-qVB.text" = "En savoir plus sur la méthode formatée (date:heure:) et AsyncImage comme nous l'avons dit en classe";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "MKI-4x-Gcb"; */
+"MKI-4x-Gcb.text" = "Étiqueter";
+
+/* Class = "UILabel"; text = "SwiftUI for iOS 15"; ObjectID = "NeV-P5-qNJ"; */
+"NeV-P5-qNJ.text" = "SwiftUI pour iOS 15";
+
+/* Class = "UILabel"; text = "A brief description"; ObjectID = "Op2-0t-JcG"; */
+"Op2-0t-JcG.text" = "Une brève description";
+
+/* Class = "UILabel"; text = "Access 120+ hours of courses, tutorials and livestreams"; ObjectID = "PsS-3T-jyR"; */
+"PsS-3T-jyR.text" = "Accédez à plus de 120 heures de cours, de tutoriels et de diffusions en direct";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "RCr-ZV-pTz"; */
+"RCr-ZV-pTz.text" = "Étiqueter";
+
+/* Class = "UIButton"; configuration.subtitle = "Sign In"; ObjectID = "RLB-kY-oDh"; */
+"RLB-kY-oDh.configuration.subtitle" = "S'identifier";
+
+/* Class = "UIButton"; configuration.title = "Already have an account?"; ObjectID = "RLB-kY-oDh"; */
+"RLB-kY-oDh.configuration.title" = "Vous avez déjà un compte?";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "RLB-kY-oDh"; */
+"RLB-kY-oDh.normalTitle" = "Bouton";
+
+/* Class = "UILabel"; text = "Flutter for Designers"; ObjectID = "SlM-E9-L23"; */
+"SlM-E9-L23.text" = "Flutter pour les concepteurs";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "TFn-JM-mNg"; */
+"TFn-JM-mNg.text" = "Sous-titre";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "TK1-5S-kpl"; */
+"TK1-5S-kpl.text" = "Étiqueter";
+
+/* Class = "UILabel"; text = "SwiftUI for iOS 15"; ObjectID = "Tsn-It-EhE"; */
+"Tsn-It-EhE.text" = "SwiftUI pour iOS 15";
+
+/* Class = "UILabel"; text = "Learn about the formatted(date:time:) method and AsyncImage as told by us in class"; ObjectID = "V6L-bx-Hem"; */
+"V6L-bx-Hem.text" = "En savoir plus sur la méthode formatée (date:heure:) et AsyncImage comme nous l'avons dit en classe";
+
+/* Class = "UILabel"; text = "RECENT COURSES"; ObjectID = "VAc-S0-WX7"; */
+"VAc-S0-WX7.text" = "COURS RÉCENTS";
+
+/* Class = "UILabel"; text = "Coding the Home View"; ObjectID = "Vyn-Kz-o7S"; */
+"Vyn-Kz-o7S.text" = "Codage de la vue d'accueil";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "XFA-kg-wG5"; */
+"XFA-kg-wG5.text" = "Étiqueter";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Xba-Fe-YKn"; */
+"Xba-Fe-YKn.text" = "Titre";
+
+/* Class = "UILabel"; text = "Coding the Home View"; ObjectID = "ZCw-uv-hB9"; */
+"ZCw-uv-hB9.text" = "Codage de la vue d'accueil";
+
+/* Class = "UIButton"; configuration.title = "Create account"; ObjectID = "ac7-1C-Hc3"; */
+"ac7-1C-Hc3.configuration.title" = "Créer un compte";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ac7-1C-Hc3"; */
+"ac7-1C-Hc3.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "CERTIFICATES"; ObjectID = "aze-dt-KKE"; */
+"aze-dt-KKE.text" = "CERTIFICATS";
+
+/* Class = "UIButton"; accessibilityHint = "Click to perform more actions about this course"; ObjectID = "cpM-xM-DU6"; */
+"cpM-xM-DU6.accessibilityHint" = "Cliquez pour effectuer plus d'actions sur ce cours";
+
+/* Class = "UIButton"; accessibilityLabel = "Couse Options"; ObjectID = "cpM-xM-DU6"; */
+"cpM-xM-DU6.accessibilityLabel" = "Options de cours";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "cpM-xM-DU6"; */
+"cpM-xM-DU6.normalTitle" = "Bouton";
+
+/* Class = "UILabel"; text = "Notifications"; ObjectID = "ctz-iQ-uNR"; */
+"ctz-iQ-uNR.text" = "Notifications";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "f3k-xs-u0A"; */
+"f3k-xs-u0A.text" = "Étiqueter";
+
+/* Class = "UINavigationItem"; title = "Recent"; ObjectID = "foJ-qg-roc"; */
+"foJ-qg-roc.title" = "Récent";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hZb-R3-p6c"; */
+"hZb-R3-p6c.text" = "Étiqueter";
+
+/* Class = "UILabel"; text = "POPULAR"; ObjectID = "iLv-tg-J1B"; */
+"iLv-tg-J1B.text" = "POPULAIRE";
+
+/* Class = "UILabel"; text = "By clicking on Sign up, you agree to our Terms of service and Privacy policy."; ObjectID = "j1O-VV-Rjf"; */
+"j1O-VV-Rjf.text" = "En cliquant sur S'inscrire, vous acceptez nos Conditions d'utilisation et notre Politique de confidentialité.";
+
+/* Class = "UITabBarItem"; title = "Explore"; ObjectID = "m5e-vh-FjO"; */
+"m5e-vh-FjO.title" = "Explorer";
+
+/* Class = "UITabBarItem"; title = "Learn Now"; ObjectID = "mQA-pW-FEG"; */
+"mQA-pW-FEG.title" = "Apprendre maintenant";
+
+/* Class = "UILabel"; text = "Sign up"; ObjectID = "mUd-iW-atD"; */
+"mUd-iW-atD.text" = "S'inscrire";
+
+/* Class = "UILabel"; text = "Library"; ObjectID = "niD-vK-F8K"; */
+"niD-vK-F8K.text" = "Bibliothèque";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "oOE-M0-ReF"; */
+"oOE-M0-ReF.text" = "Titre";
+
+/* Class = "UITextField"; placeholder = "Email address"; ObjectID = "qgn-7L-QCp"; */
+"qgn-7L-QCp.placeholder" = "Adresse e-mail";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "rbD-2v-Ct3"; */
+"rbD-2v-Ct3.text" = "Étiqueter";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "tUt-VG-Bzi"; */
+"tUt-VG-Bzi.placeholder" = "Mot de passe";
+
+/* Class = "UILabel"; text = "RECENT HANDBOOKS"; ObjectID = "uyV-eF-5qG"; */
+"uyV-eF-5qG.text" = "MANUELS RÉCENTS";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vDi-6D-ZFc"; */
+"vDi-6D-ZFc.text" = "Étiqueter";
+
+/* Class = "UITabBarItem"; title = "Notifications"; ObjectID = "vVw-0m-y1E"; */
+"vVw-0m-y1E.title" = "Notifications";
+
+/* Class = "UIButton"; accessibilityHint = "Go Back"; ObjectID = "zG7-F5-BeL"; */
+"zG7-F5-BeL.accessibilityHint" = "Retourner";
+
+/* Class = "UIButton"; accessibilityLabel = "Close Course"; ObjectID = "zG7-F5-BeL"; */
+"zG7-F5-BeL.accessibilityLabel" = "Cours fermé";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "zG7-F5-BeL"; */
+"zG7-F5-BeL.normalTitle" = "Bouton";
