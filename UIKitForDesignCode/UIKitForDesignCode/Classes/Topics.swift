@@ -22,3 +22,9 @@ let topics = [
     Topic(name: "UI Design", icon: "eyedropper"),
     Topic(name: "Web Development", icon: "desktopcomputer")
 ]
+
+let librarySettings = [
+    Topic(name: "History", icon: "clock.fill"),
+    Topic(name: "Favorites", icon: "star.fill"),
+    Topic(name: "Downloads", icon: "square.and.arrow.down.fill")
+]
