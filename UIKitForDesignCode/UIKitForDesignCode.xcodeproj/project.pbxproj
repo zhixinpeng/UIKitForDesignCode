@@ -31,6 +31,9 @@
 		3490407B28869ABA0006AB74 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3490407728869ABA0006AB74 /* Font.swift */; };
 		3490407C28869ABA0006AB74 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3490407828869ABA0006AB74 /* CustomImageView.swift */; };
 		3490407E2886E52E0006AB74 /* HandbookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3490407D2886E52E0006AB74 /* HandbookCollectionViewCell.swift */; };
+		34B7C67B288AC73D009CADFB /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B7C67A288AC73D009CADFB /* NotificationTableViewCell.swift */; };
+		34B7C67D288AC9FB009CADFB /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B7C67C288AC9FB009CADFB /* Notification.swift */; };
+		34B7C680288AD7AB009CADFB /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 34B7C67F288AD7AB009CADFB /* FirebaseFirestoreSwift */; };
 		34EDBDE528893A20005C6F1A /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDBDE428893A20005C6F1A /* CustomTabBarViewController.swift */; };
 		34EDBDE728894839005C6F1A /* SectionsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDBDE628894839005C6F1A /* SectionsCollectionViewCell.swift */; };
 		34EDBDE928894949005C6F1A /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDBDE828894949005C6F1A /* ExploreViewController.swift */; };
@@ -64,6 +67,8 @@
 		3490407728869ABA0006AB74 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		3490407828869ABA0006AB74 /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		3490407D2886E52E0006AB74 /* HandbookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandbookCollectionViewCell.swift; sourceTree = "<group>"; };
+		34B7C67A288AC73D009CADFB /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		34B7C67C288AC9FB009CADFB /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		34EDBDE428893A20005C6F1A /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
 		34EDBDE628894839005C6F1A /* SectionsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsCollectionViewCell.swift; sourceTree = "<group>"; };
 		34EDBDE828894949005C6F1A /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +84,7 @@
 			files = (
 				344BB045288A7F1800DF88FD /* FirebaseAuth in Frameworks */,
 				344BB047288A7F1800DF88FD /* FirebaseFirestore in Frameworks */,
+				34B7C680288AD7AB009CADFB /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +106,7 @@
 			children = (
 				3490405F28858EC30006AB74 /* UIKitForDesignCode */,
 				3490405E28858EC30006AB74 /* Products */,
+				34B7C67E288AD7AB009CADFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,6 +168,7 @@
 				34EE05F62887E0AB007B265E /* Course.swift */,
 				34203BB228880F5900BD97A8 /* Section.swift */,
 				34EDBDEC28895592005C6F1A /* Topics.swift */,
+				34B7C67C288AC9FB009CADFB /* Notification.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -173,8 +181,16 @@
 				34203BAE2888001100BD97A8 /* CoursesTableViewCell.swift */,
 				34203BB428883CF200BD97A8 /* SectionTableViewCell.swift */,
 				34EDBDE628894839005C6F1A /* SectionsCollectionViewCell.swift */,
+				34B7C67A288AC73D009CADFB /* NotificationTableViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		34B7C67E288AD7AB009CADFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +212,7 @@
 			packageProductDependencies = (
 				344BB044288A7F1800DF88FD /* FirebaseAuth */,
 				344BB046288A7F1800DF88FD /* FirebaseFirestore */,
+				34B7C67F288AD7AB009CADFB /* FirebaseFirestoreSwift */,
 			);
 			productName = UIKitForDesignCode;
 			productReference = 3490405D28858EC30006AB74 /* UIKitForDesignCode.app */;
@@ -257,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34EE05F72887E0AB007B265E /* Course.swift in Sources */,
+				34B7C67B288AC73D009CADFB /* NotificationTableViewCell.swift in Sources */,
 				3490407E2886E52E0006AB74 /* HandbookCollectionViewCell.swift in Sources */,
 				34203BB128880CEF00BD97A8 /* CoursesViewController.swift in Sources */,
 				34203BB528883CF200BD97A8 /* SectionTableViewCell.swift in Sources */,
@@ -275,6 +293,7 @@
 				3490407C28869ABA0006AB74 /* CustomImageView.swift in Sources */,
 				3490406128858EC30006AB74 /* AppDelegate.swift in Sources */,
 				3490407928869ABA0006AB74 /* CustomBlurView.swift in Sources */,
+				34B7C67D288AC9FB009CADFB /* Notification.swift in Sources */,
 				34203BB328880F5900BD97A8 /* Section.swift in Sources */,
 				344BB056288ABF0600DF88FD /* CertificateItem.swift in Sources */,
 				34203BAF2888001100BD97A8 /* CoursesTableViewCell.swift in Sources */,
@@ -519,6 +538,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 344BB043288A7F1800DF88FD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
+		};
+		34B7C67F288AD7AB009CADFB /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 344BB043288A7F1800DF88FD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
