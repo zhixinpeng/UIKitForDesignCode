@@ -34,6 +34,8 @@
 		34B7C67B288AC73D009CADFB /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B7C67A288AC73D009CADFB /* NotificationTableViewCell.swift */; };
 		34B7C67D288AC9FB009CADFB /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B7C67C288AC9FB009CADFB /* Notification.swift */; };
 		34B7C680288AD7AB009CADFB /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 34B7C67F288AD7AB009CADFB /* FirebaseFirestoreSwift */; };
+		34B7C682288ADD87009CADFB /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 34B7C681288ADD87009CADFB /* FirebaseMessaging */; };
+		34B7C687288AE2F7009CADFB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34B7C689288AE2F7009CADFB /* Localizable.strings */; };
 		34EDBDE528893A20005C6F1A /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDBDE428893A20005C6F1A /* CustomTabBarViewController.swift */; };
 		34EDBDE728894839005C6F1A /* SectionsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDBDE628894839005C6F1A /* SectionsCollectionViewCell.swift */; };
 		34EDBDE928894949005C6F1A /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDBDE828894949005C6F1A /* ExploreViewController.swift */; };
@@ -69,6 +71,10 @@
 		3490407D2886E52E0006AB74 /* HandbookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandbookCollectionViewCell.swift; sourceTree = "<group>"; };
 		34B7C67A288AC73D009CADFB /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
 		34B7C67C288AC9FB009CADFB /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		34B7C683288AE132009CADFB /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		34B7C684288AE132009CADFB /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		34B7C688288AE2F7009CADFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		34B7C68A288AE35C009CADFB /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		34EDBDE428893A20005C6F1A /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
 		34EDBDE628894839005C6F1A /* SectionsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsCollectionViewCell.swift; sourceTree = "<group>"; };
 		34EDBDE828894949005C6F1A /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34B7C682288ADD87009CADFB /* FirebaseMessaging in Frameworks */,
 				344BB045288A7F1800DF88FD /* FirebaseAuth in Frameworks */,
 				344BB047288A7F1800DF88FD /* FirebaseFirestore in Frameworks */,
 				34B7C680288AD7AB009CADFB /* FirebaseFirestoreSwift in Frameworks */,
@@ -133,6 +140,7 @@
 				3490406B28858EC60006AB74 /* LaunchScreen.storyboard */,
 				3490406E28858EC60006AB74 /* Info.plist */,
 				344BB048288A7F8400DF88FD /* GoogleService-Info.plist */,
+				34B7C689288AE2F7009CADFB /* Localizable.strings */,
 			);
 			path = UIKitForDesignCode;
 			sourceTree = "<group>";
@@ -213,6 +221,7 @@
 				344BB044288A7F1800DF88FD /* FirebaseAuth */,
 				344BB046288A7F1800DF88FD /* FirebaseFirestore */,
 				34B7C67F288AD7AB009CADFB /* FirebaseFirestoreSwift */,
+				34B7C681288ADD87009CADFB /* FirebaseMessaging */,
 			);
 			productName = UIKitForDesignCode;
 			productReference = 3490405D28858EC30006AB74 /* UIKitForDesignCode.app */;
@@ -240,6 +249,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 3490405428858EC30006AB74;
 			packageReferences = (
@@ -259,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34B7C687288AE2F7009CADFB /* Localizable.strings in Resources */,
 				3490406D28858EC60006AB74 /* LaunchScreen.storyboard in Resources */,
 				344BB049288A7F8500DF88FD /* GoogleService-Info.plist in Resources */,
 				3490406A28858EC60006AB74 /* Assets.xcassets in Resources */,
@@ -309,6 +320,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3490406728858EC30006AB74 /* Base */,
+				34B7C683288AE132009CADFB /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -317,8 +329,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				3490406C28858EC60006AB74 /* Base */,
+				34B7C684288AE132009CADFB /* fr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		34B7C689288AE2F7009CADFB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34B7C688288AE2F7009CADFB /* en */,
+				34B7C68A288AE35C009CADFB /* fr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -328,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -388,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -543,6 +567,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 344BB043288A7F1800DF88FD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestoreSwift;
+		};
+		34B7C681288ADD87009CADFB /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 344BB043288A7F1800DF88FD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

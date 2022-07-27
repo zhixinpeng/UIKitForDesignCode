@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Foundation
 
 class Section {
     var sectionTitle: String
@@ -15,9 +16,9 @@ class Section {
     var sectionBanner: UIImage
     
     init(title: String, subtitle: String, description: String, icon: UIImage, banner: UIImage) {
-        self.sectionTitle = title
-        self.sectionSubtitle = subtitle
-        self.sectionDescription = description
+        self.sectionTitle = NSLocalizedString(title, comment: title)
+        self.sectionSubtitle = NSLocalizedString(subtitle, comment: subtitle)
+        self.sectionDescription = NSLocalizedString(description, comment: description)
         self.sectionIcon = icon
         self.sectionBanner = banner
     }
